@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table "analytics"."Data_Marketing"."demo" ("id" integer,"name" text)
+  ;
+    -- dbt seed --
+    
+          insert into "analytics"."Data_Marketing"."demo" ("id", "name") values
+          (%s,%s),(%s,%s)
+      
+
+;
+  

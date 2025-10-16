@@ -1,0 +1,6 @@
+version: 2
+models:
+  - name: daily_dates
+    columns:
+      - name: day
+        tests: [not_null, unique]

@@ -1,0 +1,15 @@
+
+  
+    
+
+  create  table "postgres"."Data_Marketing"."daily_dates__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+select generate_series::date as day
+from generate_series(current_date - interval '6 day', current_date, interval '1 day')
+  );
+  
