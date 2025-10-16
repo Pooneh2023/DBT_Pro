@@ -4,9 +4,9 @@ postgres_profile:
     dev:
       type: postgres
       host: localhost
-      user: postgres
-      password: 3757p.A
-      port: 5432
+      user: ######
+      password: #####
+      port: #####
       dbname: postgres
       schema: Data_Marketing
       threads: 4
