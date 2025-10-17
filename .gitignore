@@ -87,3 +87,6 @@ logs/
 #  JUPYTER NOTEBOOKS
 # ======================
 .ipynb_checkpoints
+
+# macOS
+.DS_Store
