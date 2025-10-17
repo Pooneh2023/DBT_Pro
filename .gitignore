@@ -1,0 +1,89 @@
+# ======================
+#  PYTHON
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+*.env
+
+# ======================
+#  DBT
+# ======================
+# dbt compiled and target folders
+target/
+dbt_modules/
+logs/
+
+# dbt artifacts
+manifest.json
+run_results.json
+profiles.yml  # contains credentials (only ignore if you store it locally)
+*.log
+
+# ======================
+#  POSTGRES / DATABASES
+# ======================
+*.db
+*.sqlite
+*.sql
+*.dump
+*.bak
+
+# ======================
+#  POWER BI
+# ======================
+*.pbix
+*.pbit
+*.rdl
+*.rsd
+
+# ======================
+#  VS CODE & EDITORS
+# ======================
+.vscode/
+.history/
+*.code-workspace
+
+# ======================
+#  OS-SPECIFIC FILES
+# ======================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ======================
+#  LOGS & MISC
+# ======================
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ======================
+#  JUPYTER NOTEBOOKS
+# ======================
+.ipynb_checkpoints
