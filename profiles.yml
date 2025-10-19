@@ -3,11 +3,11 @@ postgres_profile:
   outputs:
     dev:
       type: postgres
-      host: localhost
-      user: ######
-      password: #####
-      port: #####
-      dbname: postgres
-      schema: Data_Marketing
+      host: 127.0.0.1
+      user: dbt_user
+      password: 3757p.A
+      port: 5432
+      dbname: analytics
+      schema: dbt_schema
       threads: 4
       connect_timeout: 30

@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: daily_dates
+    description: "Calendar table with one row per day"
+    columns:
+      - name: day
+        description: "Calendar date (unique, not null)"
