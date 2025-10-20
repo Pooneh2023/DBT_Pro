@@ -5,7 +5,7 @@ postgres_profile:
       type: postgres
       host: 127.0.0.1
       user: dbt_user
-      password: 3757p.A
+      password: "{{ env_var('DBT_PASSWORD') }}"
       port: 5432
       dbname: analytics
       schema: dbt_schema
