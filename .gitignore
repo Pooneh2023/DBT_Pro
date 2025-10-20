@@ -91,3 +91,4 @@ logs/
 # macOS
 .DS_Store
 main.py
+replacements.txt
